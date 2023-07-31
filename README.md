@@ -12,7 +12,7 @@
     ![Untitled (2)](https://user-images.githubusercontent.com/76427253/185758143-55d5da83-b20a-44a9-b1a4-ce580c15577a.png)
     ![Untitled (3)](https://user-images.githubusercontent.com/76427253/185758151-b167a888-fec3-4191-b528-abdcc8aa6626.png)
 
-### Model Architecture (cross validation + voting)
+### Model Architecture (voting)
 ![image](https://user-images.githubusercontent.com/76427253/185757021-6a5201cf-2777-4214-b34e-e31995f62e71.png)
 ![image](https://user-images.githubusercontent.com/76427253/185757142-919ed7ac-b2ea-4153-8a43-37484ba5fa64.png)
 ### Postprocessing (blur + findcontours&fillpoly)
