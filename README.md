@@ -15,8 +15,15 @@
     ![Untitled (3)](https://user-images.githubusercontent.com/76427253/185758151-b167a888-fec3-4191-b528-abdcc8aa6626.png)
 
 ### Model Architecture (voting)
-![image](https://user-images.githubusercontent.com/76427253/185757021-6a5201cf-2777-4214-b34e-e31995f62e71.png)
-![image](https://user-images.githubusercontent.com/76427253/185757142-919ed7ac-b2ea-4153-8a43-37484ba5fa64.png)
+* 使用 segmentation_models_pytorch 所提供的 API 建立以下五個模型
+  | Architectures | Encoders |
+  | ------------- | -------- |
+  | UnetPlusPlus  | Efficientnet b7 |
+  | UnetPlusPlus  | Efficientnet b5 |
+  | UnetPlusPlus  | SE-ResNeXt50-32x4d |
+  | DeepLabV3Plus | Efficientnet b5 |
+  | Linknet       | Efficientnet b5 |
+* 最後將五個模型 output 做平均 (Average Voting)
 
 ### Postprocessing (blur + findcontours & fillpoly)
 ![image](https://user-images.githubusercontent.com/76427253/185757288-2752ff48-20bd-4841-aafa-0555585824ce.png)
