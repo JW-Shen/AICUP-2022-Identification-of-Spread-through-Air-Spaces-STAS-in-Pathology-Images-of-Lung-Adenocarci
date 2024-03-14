@@ -1,6 +1,6 @@
 # AI CUP 2022 Identification of Spread through Air Spaces (STAS) in Pathology Images of Lung Adenocarcinoma (II): Using Image Segmentation Strategies to Recognize STAS Contour
 
-<p> 針對肺腺癌 H&E 染色數位病理全切片影像，本競賽提供在腫瘤外的感興趣區域 (region of interest, ROI)以方框及不規則形狀像素層級之 STAS 標註資訊，運用影像分割作法於切割STAS輪廓。</p>
+<p> 針對肺腺癌 H&E 染色數位病理全切片影像，本競賽提供在腫瘤外的感興趣區域 (region of interest, ROI) 以方框及不規則形狀像素層級之 STAS 標註資訊，運用影像分割作法於切割STAS輪廓。</p>
 
 * TEAM_1277
 * Private leaderboard：0.90546 / (Rank 13 / 307)
